@@ -6,7 +6,7 @@ import AwesomeAlert from 'react-native-awesome-alerts';
 
 const Game = () => {
     const [xOro, setxOro] = useState('X')
-    const [winnerDisplyAlert, setwinnerDisplyAlert] = useState({display:true, winner: ''})
+    const [winnerDisplyAlert, setwinnerDisplyAlert] = useState({display:false, winner: ''})
     const [toggleModel, setToggleModal] = useState(false)
     const [boxItem, setboxItem] = useState(
       {

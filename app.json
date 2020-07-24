@@ -4,9 +4,9 @@
     "slug": "tic-tac-toe-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/ic_launcher.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/ic_launcher1.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -18,6 +18,10 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.prems.prems",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
